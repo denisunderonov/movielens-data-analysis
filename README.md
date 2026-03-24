@@ -6,18 +6,22 @@ Summary: This rush will help you to strengthen the skills acquired in the previo
 
 ## Contents
 
-1. [Chapter I](#chapter-i) \
-    1.1. [Foreword](#foreword)
-2. [Chapter II](#chapter-ii) \
-    2.1. [Instructions](#instructions)
-3. [Chapter III](#chapter-iii) \
-    3.1. [Specific instructions for the day](#specific-instructions-for-the-day)
-4. [Chapter IV](#chapter-iv) \
-    4.1. [Mandatory part](#mandatory-part)
-5. [Chapter V](#chapter-v) \
-    5.1. [Bonus part](#bonus part)
-6. [Chapter VI](#chapter-vi) \
-    6.1. [Turn-in and peer-evaluation](#turn-in-and-peer-evaluation)
+- [MovieLens Analytics](#movielens-analytics)
+  - [Contents](#contents)
+  - [Chapter I](#chapter-i)
+    - [Foreword](#foreword)
+  - [Chapter II](#chapter-ii)
+    - [Instructions](#instructions)
+  - [Chapter III](#chapter-iii)
+    - [Specific instructions for the day](#specific-instructions-for-the-day)
+  - [Chapter IV](#chapter-iv)
+    - [Mandatory part](#mandatory-part)
+      - [Module](#module)
+      - [Report](#report)
+  - [Chapter V](#chapter-v)
+    - [Bonus part](#bonus-part)
+  - [Chapter VI](#chapter-vi)
+    - [Submission and peer-evaluation](#submission-and-peer-evaluation)
 
 ## Chapter I
 
@@ -37,13 +41,23 @@ So, how can you use stories in data science? Good reports have elements of story
 
 ### Instructions
 
+How to study at “School 21”:
+- You’ll discover a unique educational experience here. It’s built around autonomy and freedom. You’re given a task and must complete it. During the course, delve deeper into the subject, solve problems, and use all available resources, including internet resources and AI tools like GigaChat, to find information. Be mindful of the quality of information: verify, critically think, analyze, compare. 
+- Peer-to-Peer (P2P) learning is a process in which students exchange knowledge and experiences, acting as mentors and students simultaneously. This allows you to learn not only from material but also from others. 
+- Don’t hesitate to seek help. Around you are peers who are also navigating this path for the first time. Likewise, don’t be afraid to respond to requests for help. Your experience is valuable and useful, so share it openly with others. Stay updated with the latest community announcements by joining Rocket.Chat. 
+- Your learning is meaningless if you just copy others’ solutions. When receiving help, make sure you understand the “why”, “how”, and “purpose” behind it. Don’t be afraid to make mistakes.
+- Does the task seem impossible? Take a break, get some fresh air and clear your mind—this has helped many people. After that the solution may come naturally to you.
+- The learning process is as important as the result. It’s not about solving a task; it’s about understanding HOW to solve it. 
+
+How to work with the project:
+
 * Use this page as your only reference. Do not pay attention to rumors or speculation about how to prepare your solution.
 * Here and throughout, we use Python 3 as the only correct version of Python.
-* The python files for python exercises (module01, module02, module03) must have the following block at the end: `if __name__ == ‘__main__’`.
+* The python files for python exercises (module01, module02, module03) must have the following block at the end: `if __name__ == '__main__'`.
 * Pay attention to the permissions of your files and directories.
 * To be assessed your solution must be in your GIT repository.
 * Your solutions will be evaluated by your peers in the bootcamp.
-* You should not leave any other files in your directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .gitignore to avoid any accidents.
+* You should not leave any other files in your directory other than those explicitly specified in the exercise instructions. It is recommended that you modify your .`gitignore` to avoid any accidents.
 * Your solution must be in your GIT repository for evaluation. Always push only to the develop branch! The master branch will be ignored. Work in the src directory.
 * When you need to get precise output in your programs, it is forbidden to display a precalculated output instead of performing the exercise correctly.
 * Have a question? Ask your neighbor on the right. If that fails, try your neighbor on the left.
@@ -102,7 +116,7 @@ Do it in **Jupyter Notebook**. It is an excellent tool, especially for data scie
 In this section, we will give you more freedom. We are not going to define the structure of your report. The goal of the report is to tell an interesting story about the MovieLens dataset. Find the right structure and sequence.
 
 The only constraints are:
-1. You must use every method in movielens_analysis.py, except for the class Tests.
+1. You must use every method in `movielens_analysis.py`, except for the class Tests.
 2. Every cell in your notebook must contain the magic command `%timeit`.
 3. All other imports and built-in functions are prohibited. If you need them, put them in your module in advance.
 
