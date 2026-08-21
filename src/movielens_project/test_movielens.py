@@ -1,7 +1,6 @@
 import pytest
 from movielens_analysis import Links, Tags
 
-# Убедись, что имена файлов совпадают с твоими
 LINKS_FILE = 'links.csv'
 TAGS_FILE = 'tags.csv'
 
